@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../tarea1/css/estilos.css">
+</head>
+<body>
+    <section class="bimestre">
+        <h1>Segundo Bimestre</h1>
+    
+        <div class="grid">
+    
+            <!-- EJERCICIO 1 -->
+            <div class="card">
+                <h2>Formulario con Validación</h2>
+                <input type="text" id="nombre2" placeholder="Nombre">
+                <input type="email" id="correo2" placeholder="Correo">
+                <button onclick="validarFormulario()">Enviar</button>
+                <p id="mensajeForm"></p>
+            </div>
+    
+            <!-- EJERCICIO 2 -->
+            <div class="card">
+                <h2>Contador Dinámico</h2>
+                <p id="contador">0</p>
+                <button onclick="incrementar()">+</button>
+                <button onclick="disminuir()">-</button>
+            </div>
+    
+            <!-- EJERCICIO 3 -->
+            <div class="card">
+                <h2>Modo Oscuro</h2>
+                <button onclick="toggleModo()">Activar / Desactivar</button>
+            </div>
+    
+            <!-- EJERCICIO 4 -->
+            <div class="card">
+                <h2>Generador de Números Aleatorios</h2>
+                <button onclick="generarNumero()">Generar</button>
+                <p id="numeroRandom"></p>
+            </div>
+    
+        </div>
+    </section>
+</body>
+</html>

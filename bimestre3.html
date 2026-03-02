@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../tarea1/css/estilos.css">
+</head>
+<body>
+    <section class="bimestre">
+        <h1>Tercer Bimestre</h1>
+    
+        <div class="grid">
+    
+            <!-- EJERCICIO 1 -->
+            <div class="card">
+                <h2>Guardar Nombre (LocalStorage)</h2>
+                <input type="text" id="nombreGuardar" placeholder="Tu nombre">
+                <button onclick="guardarNombre()">Guardar</button>
+                <p id="nombreMostrado"></p>
+            </div>
+    
+            <!-- EJERCICIO 2 -->
+            <div class="card">
+                <h2>Lista Dinámica</h2>
+                <input type="text" id="itemLista" placeholder="Agregar tarea">
+                <button onclick="agregarItem()">Agregar</button>
+                <ul id="lista"></ul>
+            </div>
+    
+            <!-- EJERCICIO 3 -->
+            <div class="card animada">
+                <h2>Animación CSS</h2>
+                <p>Caja animada automáticamente</p>
+            </div>
+    
+            <!-- EJERCICIO 4 -->
+            <div class="card">
+                <h2>Mostrar/Ocultar Texto</h2>
+                <button onclick="toggleTexto()">Mostrar/Ocultar</button>
+                <p id="textoOculto" style="display:none;">Texto visible 🎉</p>
+            </div>
+    
+        </div>
+    </section>
+</body>
+</html>
